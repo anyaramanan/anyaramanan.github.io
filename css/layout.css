@@ -80,8 +80,8 @@ section{
 .no_padding_right{
 	padding-right:0px !important;
 }
-.rzm_button a{
-	max-width:160px;
+.rzm_button button{
+	max-width:200px;
 	margin:40px auto;
 	display:block;
 	border-radius:20px;
@@ -94,7 +94,7 @@ section{
 	background:#fcfcfc;
 	
 }
-.rzm_button a:hover{
+.rzm_button button:hover{
 	color:#fff !important;
 	background:#0abfbf;
 	border-color:#0abfbf !important;
