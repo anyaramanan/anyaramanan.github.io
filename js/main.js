@@ -94,7 +94,7 @@ jQuery(document).ready(function($) {
         
         
         $("#resume-download").click(function () {
-            var url = "Resume.pdf";
+            var url = "CV_Anya_Ramanan.pdf";
      
                 //Create XMLHTTP Request.
                 var req = new XMLHttpRequest();
@@ -112,7 +112,7 @@ jQuery(document).ready(function($) {
                         var url = window.URL || window.webkitURL;
                         link = url.createObjectURL(blob);
                         var a = document.createElement("a");
-                        a.setAttribute("download", "Resume.pdf");
+                        a.setAttribute("download", "CV_Anya_Ramanan.pdf");
                         a.setAttribute("href", link);
                         document.body.appendChild(a);
                         a.click();
